@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/controls"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_gear_parking"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Gear Parking" />
+
+        <Button
+            android:id="@+id/btn_gear_reverse"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Gear Reverse" />
+        <Button
+            android:id="@+id/btn_gear_drive"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Gear Drive" />
+        <Button
+            android:id="@+id/btn_turn_none"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Turn None" />
+        <Button
+            android:id="@+id/btn_turn_left"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Turn Left" />
+        <Button
+            android:id="@+id/btn_turn_right"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Turn Right" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
